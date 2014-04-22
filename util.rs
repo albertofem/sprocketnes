@@ -5,7 +5,7 @@
 //
 
 use std::io::File;
-use std::libc::{c_int, c_void, time_t};
+use libc::{c_int, c_void, time_t};
 use std::ptr::null;
 
 //

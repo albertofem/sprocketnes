@@ -4,11 +4,12 @@
 // Author: Patrick Walton
 //
 
-#![feature(link_args, macro_rules)]
+#![feature(link_args, macro_rules, globs)]
 #![no_main]
 
 extern crate native;
 extern crate sdl;
+extern crate libc;
 
 // NB: This must be first to pick up the macro definitions. What a botch.
 #[macro_escape]

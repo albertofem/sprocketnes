@@ -5,7 +5,7 @@
 //
 
 use std::cast::transmute;
-use std::libc::{c_int, c_void};
+use libc::{c_int, c_void};
 use std::ptr::null;
 
 type SpeexResamplerState = c_void;
